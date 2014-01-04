@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.anygine</groupId>
+	<groupId>com.anygine.common.build</groupId>
 	<artifactId>top-parent</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -12,7 +12,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-      <buildnumber.plugin.phase>validate</buildnumber.plugin.phase>
+    <buildnumber.plugin.phase>validate</buildnumber.plugin.phase>
 		<spring.version>3.1.0.RELEASE</spring.version>
 		<!-- spring.version>3.2.2.RELEASE</spring.version -->
 		<junit.version>4.8.2</junit.version>
@@ -31,6 +31,7 @@
 		<c3p0.version>0.9.1.2</c3p0.version>
 		<servlet.version>3.0.20100224</servlet.version>
 		<slf4j.version>1.6.1</slf4j.version>
+    <apt.mavenplugin.version>1.0-alpha-5</apt.mavenplugin.version>
 		
 	</properties>
 
@@ -184,6 +185,11 @@
 				<artifactId>slf4j-log4j12</artifactId>
 				<version>${slf4j.version}</version>
 			</dependency>
+      <dependency>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>apt-maven-plugin</artifactId>
+        <version>${apt.mavenplugin.version}</version>
+      </dependency>
 		</dependencies>
 	</dependencyManagement>
 
