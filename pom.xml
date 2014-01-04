@@ -19,15 +19,15 @@
 
   <scm>
     <url>git://nasty:8080/git/</url>
-    <connection>scm:git:git://nasty/share/git/common-build.git</connection>
-    <developerConnection>scm:git:git://nasty/share/git/common-build.git</developerConnection>
+    <connection>scm:git:ssh://admin@nasty/share/git/common-build.git</connection>
+    <developerConnection>scm:git:ssh://admin@nasty/share/git/common-build.git</developerConnection>
   </scm>
 
   <dependencies>
   </dependencies>
   
   <modules>
-    <module>top-parent</module>
+    <module>anygine-top-parent</module>
     <!-- TODO: Add e.g. BOMs here -->
   </modules>
   
