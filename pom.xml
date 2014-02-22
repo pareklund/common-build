@@ -14,7 +14,7 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <buildnumber.plugin.phase>validate</buildnumber.plugin.phase>
+    <buildnumber.plugin.phase>none</buildnumber.plugin.phase>
   </properties>
 
   <scm>
