@@ -32,7 +32,7 @@
 		<servlet.version>3.0.20100224</servlet.version>
 		<slf4j.version>1.6.1</slf4j.version>
     <apt.mavenplugin.version>1.0-alpha-5</apt.mavenplugin.version>
-    <playn.version>1.5-SNAPSHOT</playn.version>
+    <playn.version>1.5</playn.version>
 	</properties>
 
 
