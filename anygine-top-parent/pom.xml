@@ -12,7 +12,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-    <buildnumber.plugin.phase>validate</buildnumber.plugin.phase>
+    <buildnumber.plugin.phase>none</buildnumber.plugin.phase>
 		<spring.version>3.1.0.RELEASE</spring.version>
 		<!-- spring.version>3.2.2.RELEASE</spring.version -->
 		<junit.version>4.8.2</junit.version>
