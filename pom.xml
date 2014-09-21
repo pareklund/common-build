@@ -18,9 +18,11 @@
   </properties>
 
   <scm>
-    <url>git://nasty:8080/git/</url>
-    <connection>scm:git:ssh://admin@nasty/share/git/common-build.git</connection>
-    <developerConnection>scm:git:ssh://admin@nasty/share/git/common-build.git</developerConnection>
+    <url>https://github.com/pareklund/common-build.git</url>
+    <connection>scm:git:git://github.com/pareklund/common-build.git/</connection>
+    <developerConnection>scm:git:git@github.com:pareklund/common-build.git</developerConnection>
+    <tag>HEAD</tag>
+  
   </scm>
 
   <dependencies>

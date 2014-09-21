@@ -16,17 +16,15 @@
 		<spring.version>3.1.0.RELEASE</spring.version>
 		<!-- spring.version>3.2.2.RELEASE</spring.version -->
 		<junit.version>4.8.2</junit.version>
+		<hamcrest.version>1.3</hamcrest.version>
 		<ejb.version>3.0</ejb.version>
-		<!-- jpa.version>2.0.0</jpa.version -->
 		<jpa.version>1.0.2</jpa.version>
-		<!-- hibernate.version>3.6.5.Final</hibernate.version -->
 		<hibernate.version>3.4.0.GA</hibernate.version>
 		<cdi.version>1.0</cdi.version>
 		<jaxws.version>2.2.8</jaxws.version>
 		<guice.version>3.0</guice.version>
 		<aopalliance.version>1.0</aopalliance.version>
 		<jetty.version>9.0.5.v20130815</jetty.version>
-		<!-- jetty.version>8.1.10.v20130312</jetty.version -->
 		<cxf.version>2.7.6</cxf.version>
 		<c3p0.version>0.9.1.2</c3p0.version>
 		<servlet.version>3.0.20100224</servlet.version>
@@ -68,6 +66,11 @@
 				<artifactId>junit</artifactId>
 				<version>${junit.version}</version>
 			</dependency>
+			<dependency>
+		  		<groupId>org.hamcrest</groupId>
+		  		<artifactId>hamcrest-all</artifactId>
+		  		<version>${hamcrest.version}</version>
+			</dependency>		
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
